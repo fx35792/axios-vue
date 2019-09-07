@@ -11,7 +11,7 @@
 import axios from "axios";
 
 export default {
-  name: "home",
+  name: "axios-3",
   created() {
     //axios.all、axios.spread
     axios.all([axios.get("/data.json"), axios.get("/city.json")]).then(
