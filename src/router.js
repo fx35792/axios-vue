@@ -56,5 +56,15 @@ export default new Router({
       name: 'axios3-5',
       component: () => import(/* webpackChunkName: "axios3-5" */ './views/3-5.vue')
     },
+    {
+      path: '/contactList',
+      name: 'contactList',
+      component: () => import(/* webpackChunkName: "contactList" */ './views/ContactList.vue')
+    },
+    {
+      path: '/contactList2',
+      name: 'contactList2',
+      component: () => import(/* webpackChunkName: "contactList2" */ './views/ContactList2.vue')
+    },
   ]
 })
